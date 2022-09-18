@@ -62,7 +62,7 @@ export const config = {
       // 想要发送的人的名字
       name: "乖乖",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "oba5v6U_dQlSnKnx1-yBJ7H6CyGU,oba5v6aUM9t4h3WKbN09ZurBF6mE",
+      id: "oba5v6aUM9t4h3WKbN09ZurBF6mE",
       // 你想对他发送的模板消息的模板ID
       useTemplateId: "Z6SHuyfKN1krfcRmmIUYK926PV5xS_KrlSUA3JfEOHU",
       // 所在省份
@@ -95,15 +95,22 @@ export const config = {
       ]
     },
     {
-      name: "老婆1",
-      id: "",
-      useTemplateId: "",
-      province: "",
-      city: "",
+      name: "我",
+      id: "oba5v6U_dQlSnKnx1-yBJ7H6CyGU",
+      useTemplateId: "Z6SHuyfKN1krfcRmmIUYK926PV5xS_KrlSUA3JfEOHU",
+      province: "河南",
+      city: "郑州",
       horoscopeDate: '',
       horoscopeDateType: '',
       openUrl: "https://wangxinleo.cn",
-      festivals: [],
+      festivals: [
+        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
+        {"type": "*生日", "name": "乖乖", "year": "2002", "date": "11-10"},
+ 
+        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
+        
+        {"type": "节日", "name": "我们的纪念日", "year": "2020", "date": "07-08"},
+      ],
       customizedDateList: []
     },
     {
