@@ -111,7 +111,10 @@ export const config = {
         
         {"type": "节日", "name": "我们的纪念日", "year": "2020", "date": "07-08"},
       ],
-      customizedDateList: []
+      customizedDateList: [
+         // 在一起的日子
+        {"keyword": "love_day", date: "2020-07-08"},
+      ]
     },
     {
       name: "老婆2",
