@@ -62,7 +62,7 @@ export const config = {
       // 想要发送的人的名字
       name: "乖乖",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "oba5v6U_dQlSnKnx1-yBJ7H6CyGU",
+      id: "oba5v6aUM9t4h3WKbN09ZurBF6mE",
       // 你想对他发送的模板消息的模板ID
       useTemplateId: "D3BPb6OFg_OXvv6yqnmX81Sna9w8byOjTVBU0YhEBfQ",
       // 所在省份
@@ -96,8 +96,8 @@ export const config = {
     },
     {
       name: "我",
-      id: "",
-      useTemplateId: "0ecsJssbtVCQVCiT6DkxWOUGV1MXbxOvQZt6_k__vTQ",
+      id: "oba5v6U_dQlSnKnx1-yBJ7H6CyGU",
+      useTemplateId: "D3BPb6OFg_OXvv6yqnmX81Sna9w8byOjTVBU0YhEBfQ",
       province: "河南",
       city: "郑州",
       horoscopeDate: '',
@@ -114,6 +114,8 @@ export const config = {
       customizedDateList: [
          // 在一起的日子
         {"keyword": "love_day", date: "2020-07-08"},
+        // 结婚纪念日
+        {"keyword": "marry_day", date: "2022-10-28"},
       ]
     },
     {
