@@ -64,7 +64,7 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "D3BPb6OFg_OXvv6yqnmX81Sna9w8byOjTVBU0YhEBfQ",
+      useTemplateId: "tll0c-Pf6bAgEjzO3kGkYD1BomKQFZ1ZhtYOeab9epc",
       // 所在省份
       province: "河南",
       // 所在城市
@@ -97,7 +97,7 @@ export const config = {
     {
       name: "我",
       id: "oba5v6U_dQlSnKnx1-yBJ7H6CyGU",
-      useTemplateId: "D3BPb6OFg_OXvv6yqnmX81Sna9w8byOjTVBU0YhEBfQ",
+      useTemplateId: "tll0c-Pf6bAgEjzO3kGkYD1BomKQFZ1ZhtYOeab9epc",
       province: "河南",
       city: "郑州",
       horoscopeDate: '',
@@ -151,7 +151,7 @@ export const config = {
    */
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: "",
+  CALLBACK_TEMPLATE_ID: "c_xKywhqWavXGTT-ucO_iW0H1e7hdsqYF053_l129Ng",
 
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
   CALLBACK_USERS: [
@@ -159,7 +159,7 @@ export const config = {
       // 一般都填自己
       name: "自己",
       // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "",
+      id: "oba5v6U_dQlSnKnx1-yBJ7H6CyGU",
     },
     // 你可以不断按格式往下增加
     // ...
