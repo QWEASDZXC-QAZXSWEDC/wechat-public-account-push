@@ -64,7 +64,7 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "oba5v6aUM9t4h3WKbN09ZurBF6mE",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "tll0c-Pf6bAgEjzO3kGkYD1BomKQFZ1ZhtYOeab9epc",
+      useTemplateId: "gaXr-_3eUGMBmKlKPEif9IWafmZi-Jimf1Jz7CQYNMg",
       // 所在省份
       province: "河南",
       // 所在城市
@@ -97,7 +97,7 @@ export const config = {
     {
       name: "我",
       id: "oba5v6U_dQlSnKnx1-yBJ7H6CyGU",
-      useTemplateId: "tll0c-Pf6bAgEjzO3kGkYD1BomKQFZ1ZhtYOeab9epc",
+      useTemplateId: "gaXr-_3eUGMBmKlKPEif9IWafmZi-Jimf1Jz7CQYNMg",
       province: "河南",
       city: "郑州",
       horoscopeDate: '',
